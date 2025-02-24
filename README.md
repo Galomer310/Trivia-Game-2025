@@ -25,7 +25,7 @@ A fun and interactive trivia game built with a Node.js backend and a React front
 
 ## Demo
 
-*(Include a link to the live demo if available)*
+(https://trivia-game-2025.onrender.com)
 
 ## Getting Started
 
@@ -123,10 +123,6 @@ Trivia-Game-2025/
 │   │   │   ├── Leaderboard.tsx
 │   │   │   └── GameOver.tsx
 │   │   └── App.tsx
-│   ├── public/
-│   │   └── sounds/
-│   │       ├── clap.mp3
-│   │       └── wrong.mp3
 │   ├── package.json
 │   └── style.css
 └── .gitignore
