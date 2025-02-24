@@ -82,7 +82,7 @@ A fun and interactive trivia game built with a Node.js backend and a React front
 1. Open the application in your browser.
 2. Select a trivia category, difficulty level, and question type.
 3. Click **Start Game** to begin the quiz.
-4. Answer the questions within the time limit. Correct answers will trigger a clapping sound, while incorrect answers will play an alternate sound.
+4. Answer the questions within the time limit.
 5. At the end of the game, enter your name to save your score and view the leaderboard.
 
 ## Deployment
