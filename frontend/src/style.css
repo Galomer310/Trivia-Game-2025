@@ -1,0 +1,188 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #7f7fd5, #86a8e7, #91eae4);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main Container */
+.App {
+  width: 90%;
+  max-width: 800px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Headers */
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 2rem;
+  color: #e74c3c;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #34495e;
+}
+
+/* Filter Section */
+.filters {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.filters div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.filters label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.filters select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  background-color: #ecf0f1;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.filters select:focus {
+  border-color: #3498db;
+}
+
+/* Button Styles */
+button {
+  padding: 0.7rem 1.5rem;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
+/* Question Container */
+.question-container {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.question-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.question-container li {
+  background: #e1e8f0;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.question-container li:hover {
+  background-color: #d4e6f1;
+  transform: scale(1.02);
+}
+
+/* Feedback Styles */
+.feedback {
+  font-weight: bold;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.feedback.correct {
+  color: #27ae60;
+}
+
+.feedback.wrong {
+  color: #e74c3c;
+}
+
+/* Game Over Section */
+.game-over {
+  background: #fdfdfd;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.game-over input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  margin-right: 1rem;
+  width: 60%;
+  max-width: 250px;
+}
+
+.game-over .leaderboard {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.game-over .leaderboard ol {
+  padding-left: 1.5rem;
+}
+
+.game-over .leaderboard li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+
+/* Fade-in animation for question text */
+.fade-in {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Progress bar styles are already inline in the Question component */
