@@ -139,3 +139,5 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - [Open Trivia Database](https://opentdb.com/) for trivia questions.
+
+  Illustrative video : https://youtu.be/0NOXBXu1zdI
